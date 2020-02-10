@@ -27,6 +27,6 @@ setuptools.setup(
         ]
     },
     project_urls={
-        'Code': CONFIG['github']
+        'Code': Config.SOCIAL_MEDIAS['github']
     }
 )

@@ -1,5 +1,5 @@
 import click
-from config import Config
+from stobs.config import Config
 
 def _info():
     social_medias = Config.SOCIAL_MEDIAS

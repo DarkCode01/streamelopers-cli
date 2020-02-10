@@ -2,7 +2,7 @@ import os
 import json
 import click
 
-from config import ConfigOBS
+from stobs.config import ConfigOBS
 
 
 def create_file(data, name):

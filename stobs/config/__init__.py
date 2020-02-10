@@ -1,2 +1,2 @@
-from config._config import Config
-from config.config_obs import ConfigOBS
+from stobs.config._config import Config
+from stobs.config.config_obs import ConfigOBS

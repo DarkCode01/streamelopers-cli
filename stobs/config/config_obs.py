@@ -2,7 +2,7 @@
 Template of a config file with scenes collecitons.
 '''
 
-from config._config import Config
+from stobs.config._config import Config
 
 
 class ConfigOBS(Config):

@@ -1,4 +1,6 @@
-from setuptools import setup
+import setuptools
+
+from stobs.config import Config
 
 
 EXTENSIONS = {
@@ -7,19 +9,24 @@ EXTENSIONS = {
 }
 
 
-setup(
-    name='StOBS',
-    version='1.0.0',
-    author='Jose Segura',
-    author_email='j0s3s3gur4@gmail.com',
-    packages='srobs',
-    license='MIT',
-    include_package_data=True,
+setuptools.setup(
+    name=Config.NAME,
+    version=Config.VERSION,
+    author=Config.AUTHOR,
+    author_email=Config.EMAIL,
+    packages=setuptools.find_packages(),
+    license=Config.LICENSE,
+    description=Config.DESCRIPTION,
     long_description=open('README.md').read(),
     install_requires=['Click', 'colorama'],
+    python_requires='>=3.7',
+    platforms=['linux', 'macos'],
     entry_points={
         'console_scripts': [
             'stobs = stobs.__main__:main',
         ]
+    },
+    project_urls={
+        'Code': CONFIG['github']
     }
 )

@@ -1,15 +1,14 @@
-from libs import config
+import click
+from config import Config
 
 def _info():
-    _config = config._config()
+    social_medias = Config.SOCIAL_MEDIAS
 
-    print(f'''
-    Medium: {_config.get('medium')}
-    Github: {_config.get('github')}
-    Github (Streamelopers): {_config.get('github (Stremelopers)')}
-    Patron: {_config.get('patron')}
+    click.echo(f'''
+    Medium: {social_medias.get('medium')}
+    Github: {social_medias.get('github')}
+    Patron: {social_medias.get('patron')}
     ''')
 
 def version():
-    _config = config._config()
-    print(f'Streamelopers Generator (v{_config.get("version")})')
+    click.echo(f'Streamelopers Generator (v{Config.VERSION})')

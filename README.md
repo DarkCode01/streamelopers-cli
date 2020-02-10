@@ -5,6 +5,6 @@ This project is to provide to all dev or streamer from dominican republic all co
 ### Technologies.
 
 * Python3
-* Argsparser
+* Click
 
 made with <3 by streamelopers.org

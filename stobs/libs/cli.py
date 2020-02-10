@@ -1,10 +1,10 @@
 import click
 import colorama
 
+from libs.error import print_output_error
+
 from src import info
 from src import generator as creator
-
-from libs.error import print_output_error
 
 
 @click.group()

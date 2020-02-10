@@ -1,8 +1,11 @@
 import click
+import colorama
+
 from src import info
 from src import generator as creator
 
-__author__ = 'Jose Segura (Darkcoder)'
+from libs.error import print_output_error
+
 
 @click.group()
 def cli():
@@ -14,9 +17,13 @@ def cli():
 
 @cli.command(help='For generate new config file.')
 # @click.option('--event', prompt='Type of event: ', help='Specificate type of event.')
-@click.option('--name', prompt='Name of Scenes Collection', help='Name Scnenes Collection')
-def generator(name):
-    creator._generator(name)
+@click.option('--name', '-n', nargs=1, default='speaking', required=True,
+              prompt='Name of Scenes Collection', help='Name Scnenes Collection')
+def generate(name):
+    try:
+        creator._generator(name)
+    except Exception as ex:
+        print_output_error(message='Error while creating config file...', ex=str(ex))
 
 @cli.command(help='Print information of our social medias.')
 def information():
@@ -25,7 +32,3 @@ def information():
 @cli.command(help='Print version of SGen.')
 def version():
     info.version()
-
-
-if __name__ == '__main__':
-    cli()

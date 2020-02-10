@@ -1,33 +1,31 @@
-import argparse
-import textwrap
+import click
+from src import info
+from src import generator as creator
 
-# actions....
-from src import Info
-from src import Version
+__author__ = 'Jose Segura (Darkcoder)'
 
+@click.group()
 def cli():
-    parser = argparse.ArgumentParser(
-        prog='PROG',
-        formatter_class=argparse.RawDescriptionHelpFormatter,
-        description=textwrap.dedent('''\
-            Streamelopers - Generator Config.
-            --------------------------------
-            CLI create by Streamelopers for generate our configuration on OBS. 
-        ''')
-    )
+    '''
+    CLI create by Streamelopers for generate our configuration on OBS.
+    '''
 
-    # Add params...
-    parser.add_argument(
-        'info', action=Info,
-        help='Display info and social medias of Stremealopers.'
-    )
-    parser.add_argument(
-        'version', action=Version,
-        help='Prints streamelopers-gen version.'
-    )
+    pass
 
-    # parser arguments...
-    return parser.parse_args()
+@cli.command(help='For generate new config file.')
+# @click.option('--event', prompt='Type of event: ', help='Specificate type of event.')
+@click.option('--name', prompt='Name of Scenes Collection', help='Name Scnenes Collection')
+def generator(name):
+    creator._generator(name)
+
+@cli.command(help='Print information of our social medias.')
+def information():
+    info._info()
+
+@cli.command(help='Print version of SGen.')
+def version():
+    info.version()
+
 
 if __name__ == '__main__':
     cli()

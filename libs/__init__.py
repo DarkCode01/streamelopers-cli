@@ -1,1 +1,0 @@
-from libs.config import config

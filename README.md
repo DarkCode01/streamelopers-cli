@@ -34,5 +34,5 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [Darkcoder](https://github.com/Darkcode01)
+* **Jose Segura** - *Initial work* - [Darkcoder](https://github.com/Darkcode01)
 

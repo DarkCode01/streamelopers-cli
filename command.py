@@ -1,6 +1,6 @@
 '''Entry-point for the :program:`stcli`'''
 
-from stcli.lib.cli import cli as _main
+from stcli.src.lib.cli import cli as _main
 
 
 __author__ = 'Jose Segura (Darkcoder)'

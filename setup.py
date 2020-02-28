@@ -1,6 +1,6 @@
 import setuptools
 
-from stobs.config import Config
+from stcli.config import Config
 
 
 EXTENSIONS = {
@@ -23,7 +23,7 @@ setuptools.setup(
     platforms=['linux', 'macos'],
     entry_points={
         'console_scripts': [
-            'stobs = command:main',
+            'stcli = command:main',
         ]
     },
     project_urls={

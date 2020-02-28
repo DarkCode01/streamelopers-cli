@@ -6,23 +6,23 @@ This project is to provide to all dev for streamer from dominican republic all c
 
 ## Getting Started
 
-You have to install [`stobs`](https://pypi.org/manage/project/stobs/releases/) library from [Pypi](https://pypi.org/).
+You have to install [`stcli`](https://pypi.org/manage/project/stcli/releases/) library from [Pypi](https://pypi.org/).
 
 ### Installing
 
 ```
-python3 -m pip install -U stobs
+python3 -m pip install -U stcli
 ```
-Run `stobs` to test if library was installed.
+Run `stcli` to test if library was installed.
 ```
-stobs --help
+stcli --help
 ```
 
 #### Create a simple config file with scenes collection of a speaking.
 ```
-stobs generate --type speaking --ouput test
+stcli generate --type speaking --ouput test
 ```
-That command generate a new file config with yours scenes collection, in the folder `stobs` Home on your computer.
+That command generate a new file config with yours scenes collection, in the folder `stcli` Home on your computer.
 
 ## Built With
 

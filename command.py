@@ -1,6 +1,6 @@
-'''Entry-point for the :program:`stobs`'''
+'''Entry-point for the :program:`stcli`'''
 
-from stobs.lib.cli import cli as _main
+from stcli.lib.cli import cli as _main
 
 
 __author__ = 'Jose Segura (Darkcoder)'
@@ -8,7 +8,7 @@ __author__ = 'Jose Segura (Darkcoder)'
 
 def main():
     '''
-    Entrypoint to the Stremealopers - Generator ``stobs``
+    Entrypoint to the Stremealopers - Generator ``stcli``
     '''
     _main()
 

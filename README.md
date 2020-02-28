@@ -2,7 +2,7 @@
 
 # Streamelopers CLI - [Config File Generator] ⚙️🚀
 
-![Build and Upload package SDCLI.](https://github.com/DarkCode01/streamelopers-cli/workflows/Build./badge.svg)
+![Build](https://github.com/DarkCode01/streamelopers-cli/workflows/Build/badge.svg?branch=master)
 
 This project is to provide to all dev for streamer from dominican republic all cofig or tools tha we are using when we create a stream, this project is to collaborate for all users can stream whatever conference, panel, activity in Dominican Republic or from the other country, without have to configurate all OBS for you.
 

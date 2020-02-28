@@ -1,4 +1,4 @@
-name: Build and Upload package STCLI.
+name: Build
 
 on:
   push:

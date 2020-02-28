@@ -1,4 +1,4 @@
-name: Build and Upload package STOBS.
+name: Build and Upload package STCLI.
 
 on:
   push:
@@ -24,4 +24,4 @@ jobs:
         TWINE_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
       run: |
         python setup.py sdist bdist_wheel
-        twine upload dist/*
+        twine upload dist/* --verboose

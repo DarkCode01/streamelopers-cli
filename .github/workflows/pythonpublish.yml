@@ -1,7 +1,7 @@
 name: Build and Upload package STOBS.
 
 on:
-  pull_request:
+  push:
     branches:
     - master
 

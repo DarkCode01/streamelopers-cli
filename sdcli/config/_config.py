@@ -6,7 +6,7 @@ import os
 
 class Config(object):
     NAME = 'sdcli'
-    VERSION = '1.1.4'
+    VERSION = '1.1.5'
     LICENSE = 'MIT'
     AUTHOR = 'Jose Segura'
     EMAIL = 'j0s3s3gur4@gmail.com'

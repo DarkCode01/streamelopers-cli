@@ -9,7 +9,7 @@ def create_file(data, name):
     click.echo(click.style('Creating config file of scenes collection...'))
 
     if not os.path.isdir(f'{ConfigOBS.HOME}/stcli'):
-        os.mkdir(f'{ConfigOBS.ConfigOBS.HOME}/stcli')
+        os.mkdir(f'{ConfigOBS.HOME}/stcli')
 
     with open(f'{ConfigOBS.HOME}/stcli/{name}.json', 'w') as _file:
         _file.write(data)

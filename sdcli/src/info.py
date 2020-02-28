@@ -1,5 +1,5 @@
 import click
-from stcli.config import Config
+from sdcli.config import Config
 
 def _info():
     social_medias = Config.SOCIAL_MEDIAS

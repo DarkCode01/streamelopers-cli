@@ -2,7 +2,7 @@
 Template of a config file with scenes collecitons.
 '''
 
-from stcli.config._config import Config
+from sdcli.config._config import Config
 
 
 class ConfigOBS(Config):

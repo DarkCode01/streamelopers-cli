@@ -1,6 +1,6 @@
 import setuptools
 
-from stcli.config import Config
+from sdcli.config import Config
 
 
 EXTENSIONS = {
@@ -23,7 +23,7 @@ setuptools.setup(
     platforms=['linux', 'macos'],
     entry_points={
         'console_scripts': [
-            'stcli = command:main',
+            'sdcli = command:main',
         ]
     },
     project_urls={

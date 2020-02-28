@@ -1,10 +1,10 @@
 import click
 import colorama
 
-from stcli.src.lib.error import print_output_error
+from sdcli.src.lib.error import print_output_error
 
-from stcli.src import info
-from stcli.src import generator as creator
+from sdcli.src import info
+from sdcli.src import generator as creator
 
 
 @click.group()

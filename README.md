@@ -2,29 +2,29 @@
 
 # Streamelopers CLI - [Config File Generator] ⚙️🚀
 
-![Build and Upload package STOBS.](https://github.com/DarkCode01/streamelopers-cli/workflows/Build./badge.svg)
+![Build and Upload package SDCLI.](https://github.com/DarkCode01/streamelopers-cli/workflows/Build./badge.svg)
 
 This project is to provide to all dev for streamer from dominican republic all cofig or tools tha we are using when we create a stream, this project is to collaborate for all users can stream whatever conference, panel, activity in Dominican Republic or from the other country, without have to configurate all OBS for you.
 
 ## Getting Started
 
-You have to install [`stcli`](https://pypi.org/manage/project/stcli/releases/) library from [Pypi](https://pypi.org/).
+You have to install [`sdcli`](https://pypi.org/manage/project/sdcli/releases/) library from [Pypi](https://pypi.org/).
 
 ### Installing
 
 ```
-python3 -m pip install -U stcli
+python3 -m pip install -U sdcli
 ```
-Run `stcli` to test if library was installed.
+Run `sdcli` to test if library was installed.
 ```
-stcli --help
+sdcli --help
 ```
 
 #### Create a simple config file with scenes collection of a speaking.
 ```
-stcli generate --type speaking --ouput test
+sdcli generate --type speaking --ouput test
 ```
-That command generate a new file config with yours scenes collection, in the folder `stcli` Home on your computer.
+That command generate a new file config with yours scenes collection, in the folder `sdcli` Home on your computer.
 
 ## Built With
 

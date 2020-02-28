@@ -1,6 +1,6 @@
 '''Entry-point for the :program:`sdcli`'''
 
-from sdcli.src.lib.cli import cli as _main
+from sdcli.src.cli import cli as _main
 
 
 __author__ = 'Jose Segura (Darkcoder)'

@@ -23,7 +23,7 @@ setuptools.setup(
     platforms=['linux', 'macos'],
     entry_points={
         'console_scripts': [
-            'sdcli = command:main',
+            'sdcli = sdcli.__main__:main',
         ]
     },
     project_urls={

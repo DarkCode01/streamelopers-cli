@@ -5,13 +5,13 @@ import os
 
 
 class Config(object):
-    NAME = 'stcli'
-    VERSION = '1.0.1'
+    NAME = 'sdcli'
+    VERSION = '1.0.4'
     LICENSE = 'MIT'
     AUTHOR = 'Jose Segura'
     EMAIL = 'j0s3s3gur4@gmail.com'
     DESCRIPTION = '''
-    stcli -> Is a CLI for generate a simple scenes collection that we using in ours streamings.
+    sdcli -> Is a CLI for generate a simple scenes collection that we using in ours streamings.
     '''
     SOCIAL_MEDIAS = {
         'medium': '...',

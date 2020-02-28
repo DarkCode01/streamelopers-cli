@@ -1,6 +1,6 @@
 '''Entry-point for the :program:`stobs`'''
 
-from stobs.libs.cli import cli as _main
+from stobs.lib.cli import cli as _main
 
 
 __author__ = 'Jose Segura (Darkcoder)'

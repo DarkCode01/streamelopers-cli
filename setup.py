@@ -23,7 +23,7 @@ setuptools.setup(
     platforms=['linux', 'macos'],
     entry_points={
         'console_scripts': [
-            'stobs = stobs.__main__:main',
+            'stobs = command:main',
         ]
     },
     project_urls={

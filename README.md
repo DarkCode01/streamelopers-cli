@@ -22,7 +22,7 @@ sdcli --help
 
 #### Create a simple config file with scenes collection of a speaking.
 ```
-sdcli generate --type speaking --ouput test
+sdcli generate --name test
 ```
 That command generate a new file config with yours scenes collection, in the folder `sdcli` Home on your computer.
 

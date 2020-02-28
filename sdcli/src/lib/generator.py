@@ -21,7 +21,7 @@ def parser_values(data, name):
 
     return data
 
-def _generator(name):
+def _generator(event, name):
     data = parser_values(ConfigOBS.TEMPLATE, name)
     data = json.dumps(data, indent=4)
 

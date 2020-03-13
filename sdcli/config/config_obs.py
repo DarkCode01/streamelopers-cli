@@ -843,7 +843,7 @@ class ConfigOBS(Config):
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Image Slide Show",
+            "name": "Slide de StandBy",
             "prev_ver": 402653185,
             "private_settings": {},
             "push-to-mute": false,
@@ -855,7 +855,7 @@ class ConfigOBS(Config):
                     {
                         "hidden": false,
                         "selected": false,
-                        "value": "C:/Users/Lisa/Google Drive/Streamelopers/Assets/Common"
+                        "value": "C:/Users/Lisa/Google Drive/Streamelopers/Assets/Common"  # TODO: acces to common folder on google drive.
                     }
                 ]
             },
@@ -873,7 +873,7 @@ class ConfigOBS(Config):
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Imagen",
+            "name": "Imagen de suscribirse",
             "prev_ver": 402653185,
             "private_settings": {},
             "push-to-mute": false,
@@ -881,7 +881,7 @@ class ConfigOBS(Config):
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "C:/SantiagOps/Common_/Copy of 3_suscribete.png"
+                "file": "C:/SantiagOps/Common_/Copy of 3_suscribete.png"  # TODO: image of suscribe. "move to Streamelopers"
             },
             "sync": 0,
             "volume": 1.0
@@ -903,7 +903,7 @@ class ConfigOBS(Config):
             "mixers": 255,
             "monitoring_type": 2,
             "muted": false,
-            "name": "Musica",
+            "name": "Musica de fondo",
             "prev_ver": 402653185,
             "private_settings": {},
             "push-to-mute": false,
@@ -911,7 +911,7 @@ class ConfigOBS(Config):
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "local_file": "C:/SantiagOps/Musica/Copy of bensound-dreams.mp3",
+                "local_file": "C:/SantiagOps/Musica/Copy of bensound-dreams.mp3",  # TODO: music of background "move streamelopers."
                 "looping": true
             },
             "sync": 0,
@@ -933,14 +933,14 @@ class ConfigOBS(Config):
             "mixers": 255,
             "monitoring_type": 0,
             "muted": true,
-            "name": "Camera",
+            "name": "Camera principal",
             "prev_ver": 402653185,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
-            "settings": {
+            "settings": {  # TODO: camera.
                 "active": true,
                 "last_resolution": "1920x1080",
                 "last_video_device_id": "Microsoft® LifeCam Studio(TM):\\\\?\\usb#22vid_045e&pid_0772&mi_00#226&7cd012b&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
@@ -1055,7 +1055,7 @@ class ConfigOBS(Config):
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "C:/SantiagOps/Logos/Copy of Logo grande blanco.png"
+                "file": "C:/SantiagOps/Logos/Copy of Logo grande blanco.png"  # TODO: move to streamelopers.
             },
             "sync": 0,
             "volume": 1.0
@@ -1079,7 +1079,7 @@ class ConfigOBS(Config):
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "C:/Users/Lisa/Downloads/Untitled design (2).png"
+                "file": "C:/Users/Lisa/Downloads/Untitled design (2).png"  # TODO: move to streameloper folder.
             },
             "sync": 0,
             "volume": 1.0
@@ -1103,7 +1103,7 @@ class ConfigOBS(Config):
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "C:/Users/Lisa/Downloads/White_Black Background MobileDevDay Logo.png"
+                "file": "C:/Users/Lisa/Downloads/White_Black Background MobileDevDay Logo.png"  # TODO: event logo.
             },
             "sync": 0,
             "volume": 1.0

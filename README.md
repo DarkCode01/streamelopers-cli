@@ -15,6 +15,12 @@ You have to install [`sdcli`](https://pypi.org/manage/project/sdcli/releases/) l
 ```
 python3 -m pip install -U sdcli
 ```
+Run `scli setup` to generate obs setting file, the file `setting.obs.json` is the template to generate all future configuration for your projects.
+
+This command generate a new file on path `$HOME/.sdcli/setting.obs.json`, **Dont edit this file**
+```
+sdcli setup
+```
 Run `sdcli` to test if library was installed.
 ```
 sdcli --help

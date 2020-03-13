@@ -22,7 +22,7 @@ def parser_values(data, name):
     return data
 
 def _generator(event, name):
-    data = parser_values(ConfigOBS.TEMPLATE, name)
+    data = parser_values(ConfigOBS.template(), name)
     data = json.dumps(data, indent=4)
 
     create_file(data, name)

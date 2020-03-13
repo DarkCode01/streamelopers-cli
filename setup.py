@@ -5,7 +5,8 @@ from sdcli.config import Config
 
 EXTENSIONS = {
     'Click',
-    'colorama'
+    'colorama',
+    'requests'
 }
 
 

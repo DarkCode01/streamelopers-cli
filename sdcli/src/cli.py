@@ -3,6 +3,7 @@ import colorama
 
 from sdcli.src.lib import info
 from sdcli.src.lib import generator as creator
+from sdcli.src.lib import setup as configurate
 from sdcli.src.lib.error import print_output_error
 
 
@@ -27,6 +28,13 @@ def generate(name):
 @cli.command(help='Print information of our social medias.')
 def information():
     info._info()
+
+@cli.command(help='Create setting file of obs.')
+def setup():
+    try:
+        configurate.do_setup()
+    except Exception as ex:
+        print_output_error(message='Error configurateing sdcli...', ex=str(ex))
 
 @cli.command(help='Print version of SGen.')
 def version():
